@@ -1,310 +1,82 @@
-# RealEstateAgecy
-
-COde output:
-Microsoft Windows [Version 10.0.18363.1256]
-(c) 2019 Microsoft Corporation. All rights reserved.
-
-C:\Users\admin\Desktop\REAmanagementSystem>javac ManagementSystem.java
-
-C:\Users\admin\Desktop\REAmanagementSystem>java ManagementSystem
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 1
-
-Enter bedrooms: 11
-Enter bathrooms: 10
-Established year: 2000
-Enter price: 500
-Enter Area in sq. feet: 500
-Enter Residential Address: B-block,X Street, X-city,100110
-Enter no. of garage: 1
-Enter no. of stories: 2
-Is there any Basement?(y/n) : y
-Is there any BackYard?(y/n) : n
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 1
-
-Enter bedrooms: 5
-Enter bathrooms: 2
-Established year: 2005
-Enter price: 300
-Enter Area in sq. feet: 500
-Enter Residential Address: A-Block, Y-Street, Z-city, 110101
-Enter no. of garage: 2
-Enter no. of stories: 3
-Is there any Basement?(y/n) : n
-Is there any BackYard?(y/n) : y
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 2
-
-Enter bedrooms: 10
-Enter bathrooms: 11
-Established year: 2009
-Enter price: 300
-Enter Area in sq. feet: 200
-Enter Residential Address: X-block, S-Street, Z-city,101010
-Enter housing units: 4
-Enter No. of floors: 6
-Enter parkingLotNumber: 1010
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 2
-
-Enter bedrooms: 15
-Enter bathrooms: 15
-Established year: 2007
-Enter price: 600
-Enter Area in sq. feet: 500
-Enter Residential Address: D-block,Q-street,y-city,101023
-Enter housing units: 4
-Enter No. of floors: 9
-Enter parkingLotNumber: 1012
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 3
-
-Total Bedrooms: 11
-Total Bathrooms: 10
-Price : 500.0
-Square Feets : 500.0
-Built Year: 2000
-Residence Address: B-block,X Street, X-city,100110
-Total Garage: 1
-Total stories: 2
-Basement: true
-BackYard: false
-Commission Amount: 17.5
-
-Total Bedrooms: 5
-Total Bathrooms: 2
-Price : 300.0
-Square Feets : 500.0
-Built Year: 2005
-Residence Address: A-Block, Y-Street, Z-city, 110101
-Total Garage: 2
-Total stories: 3
-Basement: false
-BackYard: true
-Commission Amount: 10.500000000000002
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 4
-
-Total Bedrooms: 10
-Total Bathrooms: 11
-Price : 300.0
-Square Feets : 200.0
-Built Year: 2009
-Residence Address: X-block, S-Street, Z-city,101010
-Total Units: 4
-Total floors: 6
-parkingLotNumber:1010
-Commission Amount:9.0
-
-Total Bedrooms: 15
-Total Bathrooms: 15
-Price : 600.0
-Square Feets : 500.0
-Built Year: 2007
-Residence Address: D-block,Q-street,y-city,101023
-Total Units: 4
-Total floors: 9
-parkingLotNumber:1012
-Commission Amount:18.0
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 5
-
-You have total 2 House records!
-Which record you want to update?? 2
-
-Available fields in you house!
+Assignment 
 
 
-Enter 1: to update bedrooms
-Enter 2: to update bathrooms
-Enter 3: to update the Established year
-Enter 4: to update price
-Enter 5: to update sq. feet
-Enter 6: to update the Residential Address
-Enter 7: to update garages
-Enter 8: to update stories
-Enter 9: to update Basement Availability
-Enter 10: to update BackYard Availability
-Enter your choice: 2
-
-Enter new value: 20
-
-Updated Successfully!
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 3
-
-Total Bedrooms: 11
-Total Bathrooms: 10
-Price : 500.0
-Square Feets : 500.0
-Built Year: 2000
-Residence Address: B-block,X Street, X-city,100110
-Total Garage: 1
-Total stories: 2
-Basement: true
-BackYard: false
-Commission Amount: 17.5
-
-Total Bedrooms: 5
-Total Bathrooms: 2
-Price : 300.0
-Square Feets : 500.0
-Built Year: 2005
-Residence Address: A-Block, Y-Street, Z-city, 110101
-Total Garage: 2
-Total stories: 3
-Basement: false
-BackYard: true
-Commission Amount: 10.500000000000002
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 1
-
-Enter bedrooms: 100
-Enter bathrooms: 200
-Established year: 2018
-Enter price: 1000
-Enter Area in sq. feet: 200
-Enter Residential Address: H-block, C-street, D-city,11101
-Enter no. of garage: 3
-Enter no. of stories: 6
-Is there any Basement?(y/n) : y
-Is there any BackYard?(y/n) : y
-
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 5
-
-You have total 3 House records!
-Which record you want to update?? 1
-
-Available fields in you house!
+-	Project Name: Your GroupNumber. Example: Group1
+-	Compress your project and upload it. Do NOT use winRar.
+-	Comments are required.
 
 
-Enter 1: to update bedrooms
-Enter 2: to update bathrooms
-Enter 3: to update the Established year
-Enter 4: to update price
-Enter 5: to update sq. feet
-Enter 6: to update the Residential Address
-Enter 7: to update garages
-Enter 8: to update stories
-Enter 9: to update Basement Availability
-Enter 10: to update BackYard Availability
-Enter your choice: 1
 
-Enter new value: 10
+A Real Estate Agency needs Management System that records the details about their offers: houses and apartments
+In this project, you will be using object-oriented programming concepts and design in total four classes:
 
-Updated Successfully!
+you will implement the following classes Residence, House, and Apartment. 
 
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 6
+The following diagram shows the relationships between these classes you are required to implement.
 
-You have total 2 apartments records!
-
-Which record you want to update?? 1
-
-Below are the available fields in you apartments!
+ 
 
 
-Enter 1: to update bedrooms
-Enter 2: to update bathrooms
-Enter 3: to update the Established year
-Enter 4: to update price
-Enter 5: to update sq. feet
-Enter 6: to update the Residential Address
-Enter 7: to housing units
-Enter 8: to update floors
-Enter 9: to update parkingLotNumber
-Enter your choice: 4
 
-Enter new value: 1000
 
-Updated Successfully!
+Create a new java project, and add the following classes
 
-Enter 1: to add a House
-Enter 2: to add an Apartment
-Enter 3: to display all House records
-Enter 4: to display all Apartment records
-Enter 5: to update House records
-Enter 6: to update Apartment records
-Enter 7: to Quit
-Enter your choice: 7
 
-Thank you!
+Abstract Residence Class
+A.	Implementation details of Abstract class: Residence 
+Add and implement a class named Residence according the instruction in the UML diagram
+-	Data fields: bedrooms, bathrooms, price, squareFeet, yearBuilt and address.
+-	Constructors:
+	A no-arg constructor that creates a default Residence.
+	A constructor that creates a Residence with the specified bedrooms, bathrooms, price, squareFeet, yearBuilt and address.
 
-C:\Users\admin\Desktop\REAmanagementSystem>
+-	Getters and setters for all the class fields.
+-	calculateCommission() that returns the commission amount. The commission rate is set up at 2%.
+-	toString() that returns the information about the current object( bedrooms, bathrooms, etc.).
+
+Apartment Class
+Add and implement a class named Apartment, a subclass of Residence class with the information in the UML class diagram:
+-	Data fields: unit, floor and lot.  lot indicates the parking lot number
+-	Constructors
+-	Getters and setters methods
+-	toString() that returns the information about the current object
+-	Override calculateCommission() method. The commission rate for an apartment is set up at 3%.
+
+House Class
+Add and implement a class named House, a subclass of Residence class with the information in the UML class diagram:
+-	Data fields: garage, stories, basement, and backyard.  basement and backyard are Boolean type, indicating whether the house has basement and backyard respectively.
+-	Constructors
+-	Getters and setters.
+-	toString() that returns the information about the apartment.
+-	Override calculateCommission() method. The commission rate for a house is set up at 3.5%.
+
+
+A test program 
+
+1.	In main method, create two lists:
+List<House> houses = new ArrayList<House>();
+List<Apartment> apartments = new ArrayList< Apartment >();
+
+2.	Implement a method named menu() with no argument. This method should create the menu below and returns an integer indicating the user choice. 
+
+ 
+
+3.	In main method, Invoke menu() method and store the retuned value in a new variable named choice
+4.	Repeatedly do the following (use while):
+Check the value of choice:
+a.	If choice is 1, then:
+-	Prompt the user to enter all necessary data about the house 
+-	Create a house object. All data fields should be initialized.
+-	Add this object to the list “houses” 
+-	Display the menu by calling again menu() method.
+
+b.	If choice is 2, then:
+-	 Prompt the user to enter all necessary data about the apartment
+-	Create an Apartment object. All data fields should be initialized.
+-	Add the object to the list “apartments”
+-	Display again the menu by calling menu() method
+
+c.	If choice is 3, the loop ends and display “Thank you!” Message
+
+
+  

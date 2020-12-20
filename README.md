@@ -1,10 +1,3 @@
-Assignment 
-
-
--	Project Name: Your GroupNumber. Example: Group1
--	Compress your project and upload it. Do NOT use winRar.
--	Comments are required.
-
 
 
 A Real Estate Agency needs Management System that records the details about their offers: houses and apartments
